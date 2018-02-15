@@ -22,34 +22,50 @@
 </head>
 <body>
 
-<div class="navbar">
-			<!-- Logo -->
-		
+		<div id="banner" id="page1" style="background-image: linear-gradient(-225deg, rgba(69, 69, 69,0.6) 0%, rgba(232, 232, 232,0.6) 40%), url('https://static.pexels.com/photos/261156/pexels-photo-261156.jpeg');background-size:cover;">
 
-		<img class="navbar-logo" src="img/logo2.png" alt="logo"> 
+			<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+				<div class="navbar">
+					<!-- Logo -->
+					<img class="navbar-logo" src="img/logo2.png" alt="logo" width="150" style="padding:20px;"> 
+
+					<!-- Left Navigation -->
+					<div class="navbar-right hidden-xs hidden-sm" style="padding:20px;">
+
+						<a style="margin-right:20px;color:#000;" href="index.html" class="navbar-item navbar-link">News</a>
+						<a style="margin-right:20px;color:#000;" href="index.html" class="navbar-item navbar-link">Contact</a>
+						<a style="margin-right:20px;color:#000;" href="index.html" class="navbar-item navbar-link">About Us</a>
+					</div>
 
 
-				<a href="index.html">News</a>
-				<a href="index.html">Contact</a>
-				<a href="index.html">About us</a>
+					<!-- Dropdown appearing on mobile only -->
+					<div class="navbar-item hidden-md hidden-lg" >
+						<div class="dropdown">
+							<i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+							<ul class="dropdown-menu dropdown-menu-left navbar-dropdown-menu">
+								<li><a href="index.html">News</a></li>
+								<li><a href="index.html">Contact</a></li>
+								<li><a href="index.html">About Us</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="banner-content" style="text-align: center;margin-bottom:200px;">
+					<h1>Value Proposition text</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<a class="btn btn-primary btn-lg">Start now</a>
+				</div>
+				</div>
 			</div>
-	
-
-		<div id="banner" id="page1" style="background-image: linear-gradient(-225deg, rgba(69, 69, 69,0.6) 0%, rgba(232, 232, 232,0.6) 40%), url('https://static.pexels.com/photos/261156/pexels-photo-261156.jpeg');">
-			
-		<div class="banner-content">
-			<h1>Value Proposition text</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-			<a class="btn btn-primary btn-lg">Start now</a>
+			</div>
 		</div>
 
 
-		
-
-	</div>
-
 	<div class="subcontent">
-		<h2>Why my product is awesome</h2>
+		<h2 style="text-align: center;padding: 25px 0;">Why my product is awesome</h2>
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-md-4">
@@ -86,7 +102,10 @@
 		</div>
 	</div>	
 
-	<div class="newsletter">
+<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+	<div class="newsletter" style="text-align:center;padding: 25px 0;">
 		<h2>Subscribe to my newsletter</h2>
 		<p>Please enter you email</p>
 		<form>
@@ -96,6 +115,10 @@
 			</fieldset>
 		</form>
 	</div>
+</div>
+		</div>
+	</div>
+	
 
 	<div class="footer">
 
